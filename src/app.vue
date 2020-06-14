@@ -1,20 +1,19 @@
 <template>
-    <div id="text">{{text}}</div>
+    <div id="app">{{ text }}</div>
 </template>
 
 <script>
     export default {
-        name: "app",
         data() {
             return {
-                text:'abc'
+                text: 'abc'
             }
         }
     }
 </script>
 
 <style scoped>
-#test {
-    color: red;
-}
+    div {
+        color: red;
+    }
 </style>
